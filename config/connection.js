@@ -4,7 +4,6 @@ var mysql = required("mysql");
 
 // setup connection
 var connection = mysql.createConnection({
-    port: 8080,
     host: "localhost",
     user: "root",
     password: "StephenDKlein360",
